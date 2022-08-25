@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #acb2be;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Input {
+  flex-direction: row;
+}
+
+.sendButton {
+  color: white;
+  height: 56px;
+  width: 75px;
+  color: #2e323a;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+ol {
+  width: 250px;
+  background: #a1a9bb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+ol li {
+  color: #2e323a;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
